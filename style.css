@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+    font-family: Chakra Petch,sans-serif;
+    overflow: hidden;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #091921;
+}
+
+.container{
+    background-color: #091921;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.hours{
+    width: 180px;
+    height: 160px;
+    border: 4px solid #091921;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color:transparent;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+        inset -2px -2px 8px rgba(255, 255, 255, 0.07),
+        inset 2px 2px 8px 2px rgba(0, 0, 0, 0.3),
+        -2px -2px 5px rgba(255, 255, 255, 0.07);      
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) , rgba(253,29,29,1) 
+    , rgba(131,58,180,1));
+    background-size: 800%;
+    animation : animate linear 6s infinite;
+    -webkit-background-clip: text;
+    background-clip:text;
+}
+
+.minutes{
+    width: 30%;
+    height: 80%;
+    border: 4px solid #091921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color:transparent;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 8px rgba(255, 255, 255, 0.07),
+    inset 2px 2px 8px 2px rgba(0, 0, 0, 0.3),
+    -2px -2px 5px rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) , rgba(253,29,29,1) 
+    , rgba(131,58,180,1));
+    background-size: 800%;
+    animation : animate linear 6s infinite;
+    -webkit-background-clip: text;
+    background-clip:text;
+}
+
+.seconds{
+    width: 30%;
+    height: 80%;
+    border: 4px solid #091921;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color:transparent;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+        inset -2px -2px 8px rgba(255, 255, 255, 0.07),
+        inset 2px 2px 8px 2px rgba(0, 0, 0, 0.3),
+        -2px -2px 5px rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) , rgba(253,29,29,1) 
+    , rgba(131,58,180,1));
+    background-size: 800%;
+    animation : animate linear 6s infinite;
+    -webkit-background-clip: text;
+    background-clip:text;
+               
+}
+
+@keyframes animate{
+    form {
+       background-position: 0%;
+    }
+    to {
+        background-position: 100%;
+    }
+}
+
+
+
+
